@@ -5,4 +5,8 @@
 [[plugins]]
   package = "netlify-plugin-cypress"
 
-/eta-checker/* https://lucent-rabanadas-a5c6ec.netlify.app/eta-checker/:splat 200!
+[[redirects]]
+  from = "/eta-checker/*"
+  to = "https://quiet-jelly-feeb71.netlify.app/eta-checker/:splat"
+  status = 200
+  force = true
