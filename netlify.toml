@@ -4,9 +4,3 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
-
-[[redirects]]
-  from = "/eta-checker/*"
-  to = "https://quiet-jelly-feeb71.netlify.app/:splat"
-  status = 200
-  force = true
